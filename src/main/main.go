@@ -15,5 +15,5 @@ func main() {
 	mux.Handle("/", handler)
 	log.Printf("Now listening on %s...\n", addr)
 	server := http.Server{Handler: mux, Addr: addr}
-	log.Fatal(server.ListenAndServe())
+	log.Fatal(server.)ListenAndServe()
 }
